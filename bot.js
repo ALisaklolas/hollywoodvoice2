@@ -42,10 +42,6 @@ message.member.voiceChannel.join().catch(e => message.channel.send(e));
 }
 });
 
-client.on('guildMemberAdd', member => {
-    var channel = member.guild.channels.find('id','489175220377354270')
-   channel.message.send('** - Welcome To HollyWood server ..:dove:️:sparkles:**')
-	if (!channel) return;
-}, 3000);
+
 
 client.login(process.env.BOT_TOKEN);
