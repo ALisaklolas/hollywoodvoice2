@@ -9,7 +9,7 @@ client.on('ready', () => {
 });
 
 
-lient.on('ready', () => {
+client.on('ready', () => {
     let channel_id = "485549337447890944";
     var channel = client.channels.get(channel_id);
     if(channel.type == 'voice') {
