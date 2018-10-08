@@ -10,7 +10,7 @@ client.on('ready', () => {
 
 
 client.on('ready', () => {
-    let channel_id = "485549337447890944";
+    let channel_id = "485537644147638311";
     var channel = client.channels.get(channel_id);
     if(channel.type == 'voice') {
         channel.join();
