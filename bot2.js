@@ -19,4 +19,4 @@ client.on('ready', () => {
     }
 });
 
-client.login(process.env.BOT1_TOKEN);
+client.login(process.env.BOT2_TOKEN);
